@@ -46,8 +46,15 @@ const Main = () => {
                         
                         
                         <div className="btn-group">
-                            <button>Previous</button>
-                            <button>Next</button>
+                            <button onClick={()=>{
+                                setPokeData([])
+                                setUrl(prevUrl)
+                            }}>Previous</button>
+
+                            <button onClick={()=>{
+                                setPokeData([])
+                                setUrl(nextUrl)
+                            }}>Next</button>
                         </div>
                     </div>
                     <div className="right-content">

@@ -45,6 +45,7 @@ body{
 }
 .right-content img {
     margin: 2rem;
+    height: 190px;
 }
 .right-content h1 {
     text-transform: uppercase;
